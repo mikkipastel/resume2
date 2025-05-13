@@ -55,13 +55,13 @@
 			"company": "TrueMoney",
 			"url": "https://www.truemoney.com/",
 			"years": [
-				"2022",
-				"Current"
+				"Jul 2022",
+				"Present"
 			],
 			"details": [
 				"Developed and maintained new features for the TrueMoney Android application, serving over 10 million daily active users (DAU)",
 				"Conducted unit testing to ensure code reliability and participated in code reviews of team pull requests to maintain code quality.",
-				"Actively contributed as an Android Developer within a large, cross-functional Agile team, collaborating closely with iOS developers, Android developers, and QA engineers. Participated in Sprint planning, daily stand-ups, Sprint reviews, and Sprint retrospectives to ensure efficient and iterative development."
+				"Collaborated as an Android Developer within a large Agile team (iOS, Android, QA) for iterative development."
 			]
 		},
 		{
@@ -69,8 +69,8 @@
 			"company": "Ookbee U.",
 			"url": "https://www.ookbee.com/",
 			"years": [
-				"2019",
-				"2022"
+				"Jan 2019",
+				"Jun 2022"
 			],
 			"details": [
 				"Participated in the development of key features for several mobile applications: Anna (quiz show), Beeber (Voice UGC with podcast, audiobook, and livetalk), and Joylada (novel chat and social app).",
@@ -83,8 +83,8 @@
 			"company": "Fungjai",
 			"url": "https://www.fungjai.com/",
 			"years": [
-				"2017",
-				"2018"
+				"Jul 2017",
+				"Dec 2018"
 			],
 			"details": [
 				"Primary responsibility for the development and maintenance of Fungjai (music streaming application) and SongShake (music cover community application).",
@@ -97,8 +97,8 @@
 			"company": "ThaiGerTec",
 			"url": "#",
 			"years": [
-				"2013",
-				"2017"
+				"Apr 2013",
+				"Jun 2017"
 			],
 			"details": [
 				"Expertise in unit testing methodologies and conducting thorough code inspections specifically for automotive software development, ensuring high standards of quality and reliability.",
@@ -108,16 +108,15 @@
 		},
 		{
 			"position": "Trainee",
-			"company": "TESA Hyper Camp 2012 (April 2012 - May 2012)",
+			"company": "TESA Hyper Camp 2012",
 			"url": "#",
 			"years": [
-				"2012",
-				"2012"
+				"Apr 2012",
+				"May 2012"
 			],
 			"details": [
 				"As a trainee in TESA HYPER CAMP 2012, collaborated with FORTH Corporation on an IP Camera Surveillance application for Android tablets, gaining practical experience in mobile application development.",
-				"Developed core features of the surveillance application, including photo capture, video recording, and the creation of user-friendly photo and video galleries on the Android tablet.",
-				"Implemented the scheduling functionality, enabling users to set specific times for automated data capture and transfer from the tablet to a server."
+				"Developed core features including photo/video capture and gallery display, and implemented scheduled data capture and server transfer for an Android tablet surveillance application."
 			]
 		}
 	],
@@ -129,8 +128,7 @@
 	],
 	"interests": [
 		"Crypto & Blockchain Development",
-		"Web Development",
-		"Mobile cross-platform (Flutter & Kotlin Multiplatform)",
+		"Mobile cross-platform: Flutter & Kotlin Multiplatform",
 		"Sharing my journey and insights as a Software Developer through engaging content, aiming to inspire and motivate others in this dynamic field."
 	],
 	"resumeUrl": {
