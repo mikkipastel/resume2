@@ -1,209 +1,129 @@
-export const fullVersionLink = 'https://resume.narze.live';
-export const sourceLink = 'https://github.com/narze/resume';
+export const fullVersionLink = ""
+export const sourceLink = ""
 export const ogImageUrl =
-	'https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
+  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
 
-// export const introData = {
-// 	name: 'Manassarn Manoonchai',
-// 	nickname: 'Noom',
-// 	phone: '',
-// 	email: 'manassarn@gmail.com',
-// 	github: 'narze',
-// 	linkedin: 'manassarn',
-// 	location: 'Bangkok, Thailand',
-// 	website: 'narze.live'
-// };
+export const introData = {
+  name: "Monthira Chayabanjonglerd",
+  nickname: "Mint",
+  phone: "",
+  email: "acaideddesign3@gmail.com",
+  github: "mikkipastel",
+  linkedin: "monthira-chayabanjonglerd",
+  location: "Bangkok, Thailand",
+  website: "portfolio.mikkipastel.com",
+}
 
-// export const technologies = [
-// 	{
-// 		section: 'Languages:',
-// 		details: 'Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).'
-// 	},
-// 	{
-// 		section: 'Frameworks:',
-// 		details: 'Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap'
-// 	},
-// 	{
-// 		section: 'Tools:',
-// 		details:
-// 			'Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces'
-// 	},
-// 	{
-// 		section: 'Other:',
-// 		details:
-// 			'AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare'
-// 	}
-// ];
+export const technologies = [
+  {
+    section: "Languages:",
+    details:
+      "Kotlin",
+  },
+  {
+    section: "Tools:",
+    details:
+      "Android Studio, Git, Figma, Jira, Jenkins, Firebase",
+  }
+]
 
-// export const educations = [
-// 	{
-// 		head: 'B.Eng. Computer Engineering',
-// 		details: 'Chulalongkorn University, TH. 2007-2010 (GPA 3.45)'
-// 	}
-// ];
+export const educations = [
+  {
+    head: "B.Eng. Computer Engineering",
+    details: "Mahidol University, Graduate Class of 2013",
+  },
+]
 
-// export const workExperiences = [
-// 	{
-// 		position: 'Full-stack Developer, Co-founder',
-// 		company: 'EventPop',
-// 		url: 'https://eventpop.me',
-// 		years: ['2015', 'Current'],
-// 		details: [
-// 			'Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years',
-// 			'Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform',
-// 			'Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.',
-// 			'Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale',
-// 			'Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB',
-// 			'Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges'
-// 		]
-// 	},
-// 	{
-// 		position: 'Senior Infrastructure Software Engineer',
-// 		company: 'OPN TH',
-// 		url: 'https://opn.ooo/',
-// 		years: ['2021', 'Current'],
-// 		details: [
-// 			'Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm',
-// 			'Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store',
-// 			'Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt',
-// 			'Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.',
-// 			'Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store'
-// 		]
-// 	},
-// 	{
-// 		position: 'Maker, Co-founder',
-// 		company: 'Maker Zoo',
-// 		url: 'https://fb.me/makerzoo',
-// 		years: ['2014', '2016'],
-// 		details: [
-// 			'Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand',
-// 			'Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.',
-// 			'Developed hardware-related products for 3-5 clients and startups',
-// 			'Developed smart door lock system for Hubba, first co-working space in Bangkok',
-// 			'Provided 3D-printing service & consultant to more than 50 clients',
-// 			'Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand'
-// 		]
-// 	},
-// 	{
-// 		position: 'Web / IoT Developer (Contract)',
-// 		company: 'Box24',
-// 		url: 'https://washbox24.com',
-// 		years: ['2015', '2016'],
-// 		details: [
-// 			'Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)',
-// 			'Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment'
-// 		]
-// 	},
-// 	{
-// 		position: 'Web Developer',
-// 		company: 'Figabyte',
-// 		url: 'https://www.facebook.com/figabyte',
-// 		years: ['2011', '2014'],
-// 		details: [
-// 			'Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API',
-// 			'Developed web platform using Ruby on Rails 3 & 4',
-// 			'Made iOS apps for several clients using PhoneGap and RubyMotion'
-// 		]
-// 	},
-// 	{
-// 		position: 'Part-time Web Developer',
-// 		company: 'Wongnai Media (wongnai.com)',
-// 		url: 'https://wongnai.com',
-// 		years: ['2010'],
-// 		details: [
-// 			'Developed a small part of website using Java with Spring MVC Framework built with Apache Maven',
-// 			'Learned TDD practice & making early-stage startup'
-// 		]
-// 	}
-// ];
+export const workExperiences = [
+  {
+    position: "Senior Engineer",
+    company: "TrueMoney",
+    url: "https://www.truemoney.com/",
+    years: ["2022", "Current"],
+    details: [
+      "Developed and maintained new features for the TrueMoney Android application, serving over 10 million daily active users (DAU)",
+      "Conducted unit testing to ensure code reliability and participated in code reviews of team pull requests to maintain code quality.",
+      "Actively contributed as an Android Developer within a large, cross-functional Agile team, collaborating closely with iOS developers, Android developers, and QA engineers. Participated in Sprint planning, daily stand-ups, Sprint reviews, and Sprint retrospectives to ensure efficient and iterative development."
+    ],
+  },
+  {
+    position: "Android Developer",
+    company: "Ookbee U.",
+    url: "https://www.ookbee.com/",
+    years: ["2019", "2022"],
+    details: [
+      "Participated in the development of key features for several mobile applications: Anna (quiz show), Beeber (Voice UGC with podcast, audiobook, and livetalk), and Joylada (novel chat and social app).",
+      "Engineered and implemented reusable Kotlin-based feature libraries, including live voice and social feed components, significantly enhancing development efficiency across multiple company applications.",
+      "Demonstrated proficiency in developing and integrating modular software components to streamline application development processes within the organization.",
+    ],
+  },
+  {
+    position: "Android Developer",
+    company: "Fungjai",
+    url: "https://www.fungjai.com/",
+    years: ["2017", "2018"],
+    details: [
+      "Primary responsibility for the development and maintenance of Fungjai (music streaming application) and SongShake (music cover community application).",
+      "Proficient in implementing native Android applications using both Java and Kotlin, demonstrating adaptability and expertise in relevant programming languages.",
+      "Contributed to the entire product development process, from initial concept to final testing, with a strong focus on implementing user interfaces, core application logic, and integrating third-party libraries like ExoPlayer for multimedia capabilities.",
+    ],
+  },
+  {
+    position: "Test Engineer",
+    company: "ThaiGerTec",
+    url: "#",
+    years: ["2013", "2017"],
+    details: [
+      "Expertise in unit testing methodologies and conducting thorough code inspections specifically for automotive software development, ensuring high standards of quality and reliability.",
+      "Proficient in developing automation solutions using Python and VBA to streamline and improve the code inspection process within the organization.",
+      "Developed features and functionalities for the \"CANIBESSA\" company tool, utilizing C# programming and the MVVM design pattern to ensure a maintainable and scalable architecture.",
+    ],
+  },
+  {
+    position: "Trainee",
+    company: "TESA Hyper Camp 2012 (April 2012 - May 2012)",
+    url: "#",
+    years: ["2012", "2012"],
+    details: [
+      "As a trainee in TESA HYPER CAMP 2012, collaborated with FORTH Corporation on an IP Camera Surveillance application for Android tablets, gaining practical experience in mobile application development.",
+      "Developed core features of the surveillance application, including photo capture, video recording, and the creation of user-friendly photo and video galleries on the Android tablet.",
+      "Implemented the scheduling functionality, enabling users to set specific times for automated data capture and transfer from the tablet to a server."
+    ],
+  },
+]
 
-// export const projects = [
-// 	{
-// 		name: 'ChatOS',
-// 		details: 'Hackable chatbot web application',
-// 		url: 'chat.narze.live',
-// 		hide: false
-// 	},
-// 	{
-// 		name: 'Digital Garden',
-// 		details: 'My notes & stuff (Second Brain)',
-// 		url: 'garden.narze.live',
-// 		hide: false
-// 	},
-// 	{
-// 		name: 'Manoonchai',
-// 		details:
-// 			'Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte',
-// 		url: 'manoonchai.com',
-// 		hide: false
-// 	},
-// 	{
-// 		name: 'Dotfiles',
-// 		details:
-// 			'macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)',
-// 		url: 'github.com/narze/dotfiles',
-// 		hide: false
-// 	},
-// 	{
-// 		name: 'Resumette',
-// 		details:
-// 			'Interactive & printable résumé with tailored skills fitted in single letter page (This page!)',
-// 		url: 'resume.narze.live',
-// 		hide: false
-// 	},
-// 	{
-// 		name: 'Thwordle',
-// 		details: 'Thai language Wordle clone.',
-// 		url: 'thwordle.narze.live',
-// 		hide: false
-// 	},
-// 	{
-// 		name: '9armbot (Contributor)',
-// 		details:
-// 			'Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma',
-// 		url: 'github.com/thananon/twitch_tools',
-// 		hide: true
-// 	},
-// 	{
-// 		name: '#100DaysOfCode',
-// 		details:
-// 			'My take on practicing modern frontend development by building small projects in 100 days',
-// 		url: '100daysofcode-narze.vercel.app',
-// 		hide: true
-// 	},
-// 	{
-// 		name: 'Baht.rb',
-// 		details: 'Ruby gem to convert number to Thai Baht format',
-// 		url: 'rubygems.org/gems/baht',
-// 		hide: true
-// 	},
-// 	{
-// 		name: 'Baht.js',
-// 		details: 'Convert number to Thai Baht format, but 10x faster & fully typed.',
-// 		url: 'npmjs.com/package/baht',
-// 		hide: true
-// 	},
-// 	{
-// 		name: 'Popyut',
-// 		details:
-// 			'Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week',
-// 		url: 'github.com/popyut/popyut',
-// 		hide: true
-// 	},
-// 	{
-// 		name: 'Resound',
-// 		details:
-// 			'Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.',
-// 		url: 'github.com/narze/resound',
-// 		hide: true
-// 	}
-// ];
+export const projects = [
+  {
+    name: "Gas Tracker",
+    details:
+      "An Android solution featuring an app and Jetpack Glance widget for convenient Ethereum gas price tracking, helping users save on transaction fees. Showcased this development at the Android Bangkok Conference 2024.",
+    url: "play.google.com/store/apps/details?id=com.mikkipastel.gastracker",
+  },
+  {
+    name: "Emoji Soundboard",
+    details:
+      "Conceived and developed a Soundboard Android application utilizing emojis to visually represent and recall sound effects, as a project for The 5th Stupid Hackathon Thailand.",
+    url: "play.google.com/store/apps/details?id=com.mikkipastel.soundboard",
+  },
+  {
+    name: "MikkiPastel",
+    details:
+      "Redesigned (released 2016) and revamped my personal blog reader Android app (side project) using current technologies and the MVVM code structure to effectively display all content from my web blog.",
+    url: "play.google.com/store/apps/details?id=com.mikkipastel.blog",
+    hide: true
+  },
+  {
+    name: "Fildeo",
+    details:
+      "Enabled users to apply filters to videos and preview the effects in real-time using ExoPlayer.",
+    url: "play.google.com/store/apps/details?id=com.mikkipastel.fildeo",
+    hide: true
+  }
+]
 
-// export const interests = [
-// 	'Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards',
-// 	'Typing : 120+ words per minute (Colemak Mod-DH layout)',
-// 	'Games : Music games, FPS, MOBA, Puzzle',
-// 	'Music : EDM, Rock, Japanese',
-// 	'Remote working is a OK. I extensively use self time tracking app for all my works.',
-// 	'Pets : I have 3 dogs'
-// ];
+export const interests = [
+  "Crypto & Blockchain Development",
+  "Web Development",
+  "Mobile cross-platform",
+  "Sharing my journey and insights as a Software Developer through engaging content, aiming to inspire and motivate others in this dynamic field.",
+]
